@@ -16,6 +16,8 @@ public class Contact extends Person{
         super(name, pNumber, email);
     }
 
+
+
     public void setUnits(ArrayList<Unit> units) {
         this.units = units;
     }

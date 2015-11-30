@@ -8,11 +8,11 @@ import java.util.Date;
  */
 public class Call {
     File mp3File;
-    String unit;
+    Unit unit;
     Date callDate;
     Integer runNumber;
 
-    public Call(File mp3File, String unit, Date callDate) {
+    public Call(File mp3File, Unit unit, Date callDate) {
         this.mp3File = mp3File;
         this.unit = unit;
         this.callDate = callDate;
@@ -22,7 +22,7 @@ public class Call {
         return mp3File;
     }
 
-    public String getUnit() {
+    public Unit getUnit() {
         return unit;
     }
 
